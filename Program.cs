@@ -29,8 +29,7 @@ namespace NewExcel2
                     {
                         
                         
-                        Console.Write(worksheet.Cells[i, j].Value + " , ");// which is print the each cell data and , value.
-                        //This is one more comment added from git.
+                        Console.Write(worksheet.Cells[i, j].Value + " , ");
                     }
                     Console.WriteLine(" ");
                 }
