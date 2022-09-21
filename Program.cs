@@ -29,7 +29,7 @@ namespace NewExcel2
                     {
                         
                         
-                        Console.Write(worksheet.Cells[i, j].Value + " , ");
+                        Console.Write(worksheet.Cells[i, j].Value + " , ");// which is print the each cell data and , value.
                     }
                     Console.WriteLine(" ");
                 }
